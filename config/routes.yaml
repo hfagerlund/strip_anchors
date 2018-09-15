@@ -1,0 +1,6 @@
+test:
+    path: /
+    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+
+    defaults:
+        template: test.html.twig
