@@ -70,11 +70,15 @@ $ php bin/console server:run
 From the project **root dir**, run one of the following:
 
 ### using phpunit/phpunit:
+```
 $ ./vendor/phpunit/phpunit/phpunit ./tests/
+```
 
 Or (recommended):
 ### using symfony/phpunit-bridge
+```
 $ ./bin/phpunit
+```
 
 ## License
 Copyright (c) 2018 Heini Fagerlund. Licensed under the [MIT License](https://github.com/hfagerlund/strip_anchors/blob/master/LICENSE).
